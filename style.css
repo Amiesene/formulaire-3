@@ -1,0 +1,359 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+.container{
+    display:flex;
+    justify-content:center;
+    background:white;
+    width: 800px; 
+    height: 550px;
+    /* margin: 15px;
+    padding: 5px; */
+    border: 1px solid black;
+}
+.form-central{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    /* width: 600px;
+    height: 530px; */
+    padding: 5px;
+}
+.form-one{
+    display: flex;
+}
+.image{
+    display: flex;
+    width: 200px;
+    height: 550px;
+    /* border: 1px solid black; */
+}
+.image P{
+    /* display: flex;
+    width: 200px;
+    height: 540px; */
+    background-image: url(image/photo1.jpg);
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir l'élément */
+    background-position: center; /* Centre l'image dans l'élément */
+    background-repeat: no-repeat; /* Évite la répétition de l'image */
+    color: white; /* Change la couleur du texte pour qu'il soit lisible */
+    padding: 25px; /* Ajoute un peu d'espace autour du texte */
+    width: 170px;
+    display: flex;
+    align-items: center; /* Centre le texte verticalement */
+    justify-content: center; /* Centre le texte horizontalement */
+    margin: 0px;
+    /* background: linear-gradient(rgba(169, 240, 162, 0.5), rgba(230, 204, 170, 0.5)); Dégradé de couleur (superposé sur l'image de fond) */
+    background: 
+    /* Dégradé avec moins d'opacité */
+    linear-gradient(rgba(99, 247, 111, 0.3), rgba(247, 149, 37, 0.7)), 
+    /* Image de fond */
+    url(image/photo1.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.formulaire1{
+    /* display: flex; */
+    flex-direction: column;
+    /* gap:50px; */
+    /* background:white; */
+    /* width: 250px;
+    height: 250px; */
+    padding: 30px;
+}
+.label1{
+    display: flex;
+}
+.input1[type="text"]:focus{
+    display: flex;
+    border: 1px solid rgb(85, 190, 85);
+    border-color: rgb(85, 190, 85);
+    outline: none;
+}
+.input1{
+    height: 30px;
+    width: 200px;
+}
+.label2{
+    display: flex;
+}
+.input2[type="text"]:focus{
+    display: flex;
+    border: 1px solid rgb(85, 190, 85);
+    border-color: rgb(85, 190, 85);
+    outline: none;
+}
+.input2{
+    height: 30px;
+    width: 200px;
+
+}
+.label3{
+    display: flex;
+}
+.input3[type="text"]:focus{
+    display:flex;
+    border: 1px solid rgb(85, 190, 85);
+    border-color: rgb(85, 190, 85);
+    outline: none;
+}
+.input3{
+    height: 30px;
+    width: 200px;
+}
+.label4{
+    display: flex;
+}
+.input4[type="text"]:focus{
+    display: flex;
+    border: 1px solid rgb(85, 190, 85);
+    border-color: rgb(85, 190, 85);
+    outline: none;
+}
+.input4{
+    height: 30px;
+    width: 200px;
+}
+.label5{
+    display: flex;
+}
+.input5[type="text"]:focus{
+    display: flex;
+    border: 1px solid rgb(85, 190, 85);
+    border-color: rgb(85, 190, 85);
+    outline: none;
+}
+.input5{
+    height: 30px;
+    width: 200px;
+}
+.liste{
+    display: flex;
+}
+.last-btn{
+    display: flex;
+}
+.last-btn button{
+    width: 100px;
+    margin-right: 310px;
+    height: 30px;
+    margin-top: -10px;
+    background: #5cb85c;
+    border: 1px solid rgb(79, 156, 79);
+}
+/* .bas-de-page{
+    display: flex;
+} */
+.liste{
+    display: flex;
+    margin-left:20px ;
+}
+.hr1{
+    border: 0;
+    height: 1px;
+    width:210px;
+    background: #000;
+    margin-left: 50px;
+    /* margin: 20px; */
+}
+.hr2{
+    /* border: 0;
+    height: 1px; */
+    border: 0;
+    height: 1px;
+    width:200px;
+    background: #000;
+    margin-left: -290px;
+    margin-right: 1px;
+}
+.formulaire2{
+    /* display: flex; */
+    /* justify-content: start; */
+    flex-direction: column;
+    /* width: 250px;
+    height: 250px; */
+    /* margin: 30px; */
+
+}
+.bloc1 .input-b1{
+    height: 30px;
+    width: 200px;
+}
+.label-two .input-two{
+    height: 30px;
+}
+.label-three .input-three{
+    height: 30px;
+    width: 200px;
+}
+.label-four .input-four{
+    height: 30px;
+}
+/* .bloc1 .l1 .para-bloc1{
+    display: flex;
+
+} */
+.label-one .l2 .para-bloc2{
+    display: flex;
+}
+.radio input label{
+    display: flex;
+}
+.label-two .l3 {
+    display: flex;
+}
+.input-two{
+    display: flex;
+    width: 200px;
+
+}
+.label-three .l4 .input-three{
+    display: flex;
+}
+.label-four .l5{
+    display: flex;
+}
+.input-four{
+    display: flex;
+    width: 200px;
+    
+}
+.btn input{
+    /* display: flex; */
+    /* justify-content: end; */
+    height: 40px;
+    width: 80px;
+    background: white;
+    border: 1px solid rgb(79, 156, 79);
+    
+}
+.btn{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    margin: 5px;
+    margin-right: 35px;
+    margin-top: 30px;
+}
+.btn input:hover{
+    background-color: rgb(79, 156, 79);
+    border-color: rgb(79, 156, 79) ;
+    border: 2px solid rgb(79, 156, 79);
+    color: white;
+
+}
+.formulaire1 .item1{
+    margin: 20px;
+} 
+.formulaire1 .item2{
+    margin: 20px;
+}
+.formulaire1 .item3{
+    margin: 20px;
+}
+.formulaire1 .item4{
+    margin: 20px;
+}
+.formulaire1 .item5{
+    margin: 20px;
+}
+.bloc1 .b1{
+    display: flex;
+    gap: 15px;
+} 
+.bloc1 .l1{
+    height: 10px;
+    margin-top: 17;
+}
+.formulaire2 .bloc1{
+    margin: 20px;
+}
+.bloc2 .label-one{
+    display: flex;
+    margin: 20px;
+    height: 10px;
+    gap: 20px;
+}
+.label-one .l2{
+    margin-top: 10px;
+}
+.bloc2 .radio{
+    margin:20px ;
+}
+.bloc2 .label-two{
+    margin:20px ;
+}
+.bloc2 .label-three{
+    margin:20px ;
+}
+.bloc2 .label-four{
+    margin:20px ;
+}
+.bloc1 .input-b1[type="text"]:focus{
+    border: 1px solid rgb(85, 190, 85);
+    border-color: rgb(85, 190, 85);
+    outline: none;
+}
+.radio input[type="radio"]:focus{
+    accent-color: #5cb85c;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    outline: none;
+}
+.radio input[type="radio"]:checked{
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+    border-radius: 5px;
+    border: 1px solid #5cb85c;
+}
+.label-two .input-two[type="text"]:focus{
+    border: 2px solid rgb(85, 190, 85);
+    border-color: rgb(85, 190, 85);
+    outline: none;
+}
+.label-three .input-three[type="text"]:focus{
+    border: 1px solid rgb(85, 190, 85);
+    border-color: rgb(85, 190, 85);
+    outline: none;
+}
+.label-four .input-four[type="text"]:focus{
+    border: 1px solid rgb(85, 190, 85);
+    border-color: rgb(85, 190, 85);
+    outline: none;
+}
+.btn input[type="text"]:hover{
+    background-color:rgb(85, 190, 85) ;
+
+}
+.l1 .para-bloc1{
+    display: flex;
+}
+.b1 .para-bloc1{
+    margin-top: 17px;
+}
+@media (max-width: 768px)  {
+    .container{
+        flex-direction: column;
+        height: 150vh;
+        width: 100%;
+    }
+    .image{
+        width: 400px; 
+        height: 532px;
+    }
+    .form-central {
+        width: 400px; 
+        height: 532px;
+    }
+}
+
